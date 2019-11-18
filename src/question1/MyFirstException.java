@@ -1,5 +1,7 @@
 package question1;
 
+import java.util.Scanner;
+
 public class MyFirstException extends Exception {
     MyFirstException(String message) {
         super(message);
@@ -19,5 +21,7 @@ class Main {
     public static void main(String[] args) {
         int num1;
         int num2;
-
+        Main obj = new Main();
+        Scanner scan = new Scanner(System.in);
     }
+}
