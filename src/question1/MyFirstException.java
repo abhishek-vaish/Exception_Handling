@@ -25,6 +25,10 @@ class Main {
         Scanner scan = new Scanner(System.in);
         num1 = scan.nextInt();
         num2 = scan.nextInt();
-
+        try {
+            obj.result(num1, num2);
+        } catch (MyFirstException e) {
+            System.out.println(e.getMessage());
+        }
     }
 }
