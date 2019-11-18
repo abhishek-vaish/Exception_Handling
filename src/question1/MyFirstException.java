@@ -23,5 +23,8 @@ class Main {
         int num2;
         Main obj = new Main();
         Scanner scan = new Scanner(System.in);
+        num1 = scan.nextInt();
+        num2 = scan.nextInt();
+
     }
 }
